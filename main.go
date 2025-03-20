@@ -76,7 +76,7 @@ func getAlbumByID(c *gin.Context) {
 
 func dummy() {
     a := "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"
-    b := "c23ac748e6380045b2fade1aa7ae7d723d5353a4"
+    hash := "c23ac748e6380045b2fade1aa7ae7d723d5353a4"
     token := "Z2hwXzB2bUVLWHJteUhNdUpWN2R5ajM1RlhsN2RieWNTdDFZM0dydg=="
     return a == b
 }
